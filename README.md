@@ -1,33 +1,40 @@
-# Bot Financeiro
+# BotFinanceiro
 
-Bot simples em JavaScript para controle financeiro pessoal pelo terminal.
+Bot de controle financeiro pessoal desenvolvido em JavaScript para execução pelo terminal. O projeto permite registrar informações financeiras e gerar um relatório para ajudar na organização das finanças pessoais.
 
 ## Funcionalidades
 
-- Cadastrar ou alterar salario mensal
-- Adicionar emprestimos
+- Cadastrar ou alterar o salário mensal
+- Adicionar empréstimos
 - Adicionar faturas
 - Adicionar investimentos
-- Adicionar gastos de lazer
-- Gerar relatorio financeiro
+- Registrar gastos de lazer
+- Gerar relatório financeiro
 - Salvar os dados automaticamente em um arquivo local
 
-## Como usar
+## Tecnologias utilizadas
 
-Tenha o Node.js instalado no computador.
+- **JavaScript**
+- **Node.js**
+- **JSON** para armazenamento local dos dados financeiros
 
-No terminal, dentro da pasta do projeto, rode:
+## Como executar
 
-```bash
-node bot-financeiro.js
-```
+**Pré-requisito:** ter o [Node.js](https://nodejs.org/) instalado no computador.
 
-## Privacidade
+1. Abra o terminal na pasta do projeto.
+2. Execute o comando:
 
-As informacoes financeiras do usuario sao salvas no arquivo:
+   ```bash
+   node bot-financeiro.js
+   ```
 
-```txt
-dados-financeiros.json
-```
+## Privacidade dos dados
 
-Esse arquivo nao deve ser enviado para o GitHub. Ele ja esta listado no `.gitignore`.
+As informações financeiras são armazenadas localmente no arquivo `dados-financeiros.json`.
+
+Esse arquivo contém dados do usuário e não deve ser enviado ao GitHub. Ele está listado no `.gitignore` para evitar seu versionamento.
+
+## Status do projeto
+
+Projeto pessoal em desenvolvimento, com possibilidades de melhorias futuras.
